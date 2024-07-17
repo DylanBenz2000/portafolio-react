@@ -1,0 +1,52 @@
+.container{
+    color: #C7C7C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: 3px solid red; */
+    
+}
+
+.presentacion{
+    
+}
+
+.presentacion h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C7C7C7;
+    text-transform: uppercase;
+    font-size: 70px;
+    display: inline;
+}
+
+.presentacion p{
+    color: #C7C7C7;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.presentacion img{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.rectangulo{
+    width: 400px;
+    height: 500px;
+    background: #C7C7C7;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangulo img{
+    width: 380px;
+    mask-image: linear-gradient(#C7C7C7 85%, transparent);
+}
