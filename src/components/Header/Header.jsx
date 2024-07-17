@@ -2,10 +2,10 @@ import styles from './Header.module.css';
 
 const Header = () => {
     return(
-        <header className={styles.header}>
+        
 
-            <nav>
-            <h1 className={styles.titulo}>Dylan Ramos</h1>
+            <nav className={styles.navbar}>
+                <h1 className={styles.titulo}>Dylan Ramos</h1>
                 <ul className={styles.navList}>
                     <li><a href="#">Work</a></li>
                     <li><a href="#">About</a></li>
@@ -13,7 +13,7 @@ const Header = () => {
                 </ul>
             </nav>
 
-        </header>
+        
     )
 }
 
