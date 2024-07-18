@@ -1,0 +1,37 @@
+{
+    "proyectos": [
+      {
+        "titulo": "Alura Midi",
+        "descripcion": "Es un challenge que se realizo para Alura, para poner en practica nuestro conocimiento",
+        "year": 2024,
+        "role": "Front-End Developer",
+        "imagen": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/451554089_1041708480840234_7668675910540002741_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=f727a1&_nc_ohc=LYBIrACvqsEQ7kNvgHdX9KC&_nc_ht=scontent-qro1-1.xx&oh=00_AYAqzBe3gcJNFGU5N_mZO8amjiHP2SdNFncWZHDn55EGaQ&oe=669F86D1"
+      },
+      {
+        "titulo": "Fokus",
+        "descripcion": "Es una App que sirve para concentrarse trabajando con el método pomodoro.",
+        "year": 2024,
+        "role": "Front-End Developer",
+        "imagen": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/452161548_1041708454173570_7189593544924500932_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_ohc=2aVQKq82Mj4Q7kNvgGBWeBY&_nc_ht=scontent-qro1-2.xx&oh=00_AYCsOX8mC1KLSIhj8xQzcZZCYjHlCHsEepUc_QUmwUd1-g&oe=669F783A"
+      },
+      {
+        "titulo": "Galaxy Geek",
+        "descripcion": "Es un simulador de una 'tienda', en la cual puedes ir agregando tus productos.",
+        "year": 2024,
+        "role": "Front-End Developer",
+        "imagen": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/451414992_1041708474173568_7859871332118195367_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=f727a1&_nc_ohc=vSDHtYlMQFgQ7kNvgHNe1H-&_nc_ht=scontent-qro1-2.xx&oh=00_AYAslWghjdSCKxKwcN9qqvkuYPmhiYC67WDk4-EMI4Ggog&oe=669F5F22"
+      },
+      {
+        "titulo": "To-Do App",
+        "descripcion": "Es un app para poder realizar notas de tus pendientes y también para saber cuando los has terminado",
+        "year": 2024,
+        "role": "Front-End Developer",
+        "imagen": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/452115775_1041708517506897_5542578460700566694_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=f727a1&_nc_ohc=ibv_39bdAckQ7kNvgGlbUfb&_nc_ht=scontent-qro1-2.xx&oh=00_AYBjJoKc8OTZ9pOLdhrSWjy2gbvHAwqcwgojd7qxhDJlSg&oe=669F7684"
+      }
+    ],
+    "certificados": [
+      {
+
+      }
+    ]
+  }
