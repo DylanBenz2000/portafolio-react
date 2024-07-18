@@ -1,0 +1,71 @@
+.containerProjects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    color: #C7C7C7;
+    /* border: 3px solid red; */
+}
+
+.titlesProjects h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C7C7C7;
+    font-size: 45px;
+    display: inline;
+}
+
+.titlesProjects p{
+    color: #C7C7C7;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.projects{
+    width: 100%;
+    height: 500px;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h2{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #fff;
+}
+
+.projectAbout{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+
+}
+
+.about p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    border-bottom: 1px solid #484848;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.about a{
+    padding: 0 15px 0 0;
+}
