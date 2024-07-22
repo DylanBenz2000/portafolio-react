@@ -1,0 +1,78 @@
+.cuadro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #1A1A1A;
+    border-radius: 15px;
+}
+
+.cuadro img{
+    width: 400px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.about{
+    width: 50%;
+}
+
+.about h2{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    color: #fff;
+}
+
+.projectAbout{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+
+}
+
+.about p{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    border-bottom: 1px solid #484848;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.containerAnchors{
+    display: flex;
+    gap: 20px;
+}
+
+.about a{
+    padding: 0 15px 0 0;
+    cursor: pointer;
+    color: #D3E97A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.about .anchorDemo{
+    border-bottom: 3px solid #D3E97A;
+    padding-bottom: 5px;
+}
+
+.about .anchorGit{
+    border-bottom: 3px solid #D3E97A;
+    padding-bottom: 5px;
+}
+
+
+
+

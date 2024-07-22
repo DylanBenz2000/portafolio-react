@@ -1,10 +1,36 @@
-.containerProjects{
+.title{
+    border-top: 2px solid #C7C7C7;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+}
+
+.title h1{ 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #C7C7C7;
+    text-transform: uppercase;
+    font-size: 50px;
+    display: inline;
+}
+
+.title p{
+    color: #C7C7C7;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: #fff;
+    box-sizing: border-box;
     /* border: 3px solid red; */
 }
 
@@ -63,7 +89,6 @@
     border-bottom: 1px solid #484848;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
 }
 
 .about a{
