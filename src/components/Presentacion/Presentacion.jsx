@@ -2,6 +2,7 @@ import styles from './Presentacion.module.css'
 import git from './github.png'
 import linkedin from './linkedin.png'
 import yo from './yoo.png'
+import Boton from '../Boton/Boton'
 
 const Presentacion = () => {
     return(
@@ -9,8 +10,10 @@ const Presentacion = () => {
 
             <div className={styles.presentacion}>
                 <h1>Hola, soy Dylan Ramos.</h1>
-                <p>Un desarrollador front-end con sede en Morelos apasionado por crear sitios web accesibles y fáciles de usar</p>
+                <p>Un desarrollador front-end con sede en Morelos apasionado por crear sitios web accesibles y fáciles de usar.</p>
+
                 <div>
+                    <a href="#contacto"><Boton>Contactame <i className="fa-solid fa-circle"></i></Boton></a>
                     <a href="https://github.com/DylanBenz2000" target='blank' rel='noopener noreferrer'>
                         <img src={git} alt="" />
                     </a>
@@ -18,6 +21,7 @@ const Presentacion = () => {
                         <img src={linkedin} alt="" />
                     </a>
                 </div>
+
             </div>
 
             <div className={styles.rectangulo}>
