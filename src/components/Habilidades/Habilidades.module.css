@@ -1,0 +1,47 @@
+.containerHabilidades{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.containerHabilidades h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C7C7C7;
+    text-transform: uppercase;
+    font-size: 70px;
+    display: inline;
+    transition: color 0.3s ease;
+}
+
+.containerHabilidades h1:hover {
+    color: #D3E97A;
+}
+
+.containerHabilidades p{
+    color: #C7C7C7;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.containerHabilidades .habilidades{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaHab{
+    display: flex;
+    gap: 10px ;
+    flex-wrap: wrap;
+}
+
+.cajaHab i{
+    color: #fff;
+}
