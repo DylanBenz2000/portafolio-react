@@ -18,7 +18,7 @@ const Projects = () => {
 
         <>
 
-            <div className={styles.title}>
+            <div className={styles.title} id='proyectos'>
                 <h1>Proyectos Destacados</h1>
                 <p>Estos son algunos de los proyectos seleccionados que muestran mi pasión por el desarrollo front-end.</p>
             </div>
