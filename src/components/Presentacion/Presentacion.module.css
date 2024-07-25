@@ -4,13 +4,26 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    /* border: 3px solid red; */
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #1e1e1e, #2b2b2b);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     
 }
 
-.presentacion{
-    
+.presentacion div{
+    display: flex;
+    gap: 5px;
 }
+
+.presentacion i{
+    padding: 0 10px 0 10px;
+    font-size: 9px;
+    color: black;
+}
+
 
 .presentacion h1{
     font-family: "Bebas Neue", sans-serif;
@@ -20,6 +33,7 @@
     text-transform: uppercase;
     font-size: 70px;
     display: inline;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .presentacion p{
@@ -29,11 +43,13 @@
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
+    animation: fadeIn 2s ease-in-out 0.5s;
 }
 
 .presentacion img{
-    padding: 0 15px 0 0;
+    /* padding: 0 15px 0 0; */
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .rectangulo{
@@ -44,9 +60,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .rectangulo img{
     width: 380px;
     mask-image: linear-gradient(#C7C7C7 85%, transparent);
+    transition: transform 0.3s ease;
+}
+
+.rectangulo:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
