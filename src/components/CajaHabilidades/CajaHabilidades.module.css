@@ -1,0 +1,37 @@
+.cuadroHabilidades{
+    background-color: transparent;
+    border: 1px solid #484848;
+    border-radius: 30px;
+    color: #fff;
+    /* border: 3px solid red; */
+    width: 100px;
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    padding: 10px 50px;
+    gap: 10px;
+    font-size: 20px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.cuadroHabilidades i{
+    font-size: 22px;
+}
+
+
+.cuadroHabilidades:hover {
+    background-color: var(--hover-color);
+    color: #fff;
+    border-color: var(--hover-color);
+}
+
+.cuadroHabilidades:hover i {
+    color: #fff;
+}
