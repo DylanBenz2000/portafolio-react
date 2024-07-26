@@ -7,7 +7,7 @@ const Projects = () => {
     const [proyectos, setProyectos] = useState([])
 
     useEffect( () => {
-        fetch("http://localhost:3000/proyectos")
+        fetch("https://my-json-server.typicode.com/DylanBenz2000/portafolio-react-api/proyectos")
         .then(response => response.json())
         .then(data =>{
             setProyectos(data)
