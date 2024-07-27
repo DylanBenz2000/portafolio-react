@@ -6,7 +6,9 @@ const Habilidades = () => {
         <section className={styles.containerHabilidades}>
             <h1>Habilidades</h1>
             <div className={styles.habilidades}>
-                <p>Siempre estoy buscando adquirir nuevas habilidades e ir actualizando las tecnologías o librerías que uso. Estas son habilidades que actualmente tengo conocimiento.</p>
+                <div className={styles.parrafo}>
+                    <p>Siempre estoy buscando adquirir nuevas habilidades e ir actualizando las tecnologías o librerías que uso. Estas son habilidades que actualmente tengo conocimiento.</p>
+                </div>
                 <div className={styles.cajaHab}>
                     <CajaHabilidades color="#E34F26">HTML <i className="fa-brands fa-html5"></i></CajaHabilidades>
                     <CajaHabilidades color="#1572B6">CSS <i className="fa-brands fa-css3-alt"></i></CajaHabilidades>

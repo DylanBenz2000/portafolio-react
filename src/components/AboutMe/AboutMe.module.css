@@ -45,3 +45,26 @@
 
 .containerAbout p{
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .containerAbout{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerAbout div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerAbout p{
+        width: 100%;
+        line-height: 20px;
+    }
+}

@@ -1,9 +1,12 @@
+
 .containerHabilidades{
     color: #fff;
     display: flex;
     justify-content: space-between;
-    margin: 30px 0 0 0;
+    margin: 40px 0 0 0;
+    
 }
+
 
 .containerHabilidades h1{
     font-family: "Bebas Neue", sans-serif;
@@ -38,10 +41,31 @@
 
 .cajaHab{
     display: flex;
+    flex-direction: row;
     gap: 10px ;
-    flex-wrap: wrap;
 }
 
 .cajaHab i{
     color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .containerHabilidades{
+
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .containerHabilidades .habilidades{
+        width: 100%;
+    }
+    .parrafo{
+
+        width: 100%;
+    }
+    .cajaHab{
+        flex-wrap: wrap;
+    }
 }

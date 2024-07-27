@@ -3,11 +3,12 @@ import Inicio from "./pages/Inicio/Inicio"
 import MensajeEnviado from "./pages/MensajeEnviado/MensajeEnviado"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
+import './routes.css'
 
 const AppRoutes = () =>{
     return(
 
-        <div style={{margin: '0 20px'}}>
+        <div className="container-routes">
             <BrowserRouter>
                 <Header />
                 <Routes>
