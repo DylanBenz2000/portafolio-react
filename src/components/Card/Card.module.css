@@ -115,7 +115,7 @@
         justify-content: center;
     }
     .cuadro img{
-        /* width: 200px; */
+        width: 100%;
     }
     .about{
         justify-content: center;
