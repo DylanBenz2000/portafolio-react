@@ -141,10 +141,10 @@ form textarea:focus {
     }
 
     form input {
-        width: 400px;
+        width: 100%;
     }
 
     form textarea{
-        width: 400px;
+        width: 100%;
     }
 }
