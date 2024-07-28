@@ -33,3 +33,13 @@ i{
     width: 280px;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 800px) {
+    .mensaje h1{
+        text-align: center;
+    }
+
+    .mensaje p{
+        text-align: center;
+    }
+}
